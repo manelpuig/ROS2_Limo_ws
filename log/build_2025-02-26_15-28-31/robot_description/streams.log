@@ -1,0 +1,58 @@
+[0.039s] Invoking command in '/home/user/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tcsim_gazebo/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robot_description
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.219s] -- The CXX compiler identification is GNU 11.4.0
+[0.229s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.361s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.361s] -- Detecting C compile features
+[0.362s] -- Detecting C compile features - done
+[0.366s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.515s] -- Detecting CXX compile features
+[0.515s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.838s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.956s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.188s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.391s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.393s] -- Added test 'lint_cmake' to check CMake code style
+[1.395s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.399s] -- Added test 'xmllint' to check XML markup files
+[1.401s] -- Configuring done
+[1.404s] -- Generating done
+[1.406s] -- Build files have been written to: /home/user/ros2_ws/build/robot_description
+[1.414s] Invoked command in '/home/user/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tcsim_gazebo/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robot_description
+[1.417s] Invoking command in '/home/user/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_description -- -j8 -l8
+[1.487s] Invoked command in '/home/user/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_description -- -j8 -l8
+[1.574s] Invoking command in '/home/user/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_description
+[1.584s] -- Install configuration: ""
+[1.585s] -- Execute custom install script
+[1.586s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//urdf/limo/limo.urdf.xacro
+[1.597s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//urdf/limo/limo_utils.xacro
+[1.610s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//meshes/limo/face.png
+[1.627s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//meshes/limo/lcd_screen_texture.png
+[1.644s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//meshes/limo/limo.dae
+[1.659s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//meshes/limo/limo.stl
+[1.670s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//meshes/limo/limo_mecanum_wheel.dae
+[1.684s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//meshes/limo/limo_mecanum_wheel.stl
+[1.702s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//meshes/limo/limo_texture.png
+[1.710s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//meshes/limo/rotw2_rviz.png
+[1.727s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//meshes/limo/sidescreentexture.png
+[1.738s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description//launch/launch_sim.launch.py
+[1.752s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.770s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.785s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.798s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.814s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[1.828s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[1.841s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[1.852s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[1.864s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[1.877s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[1.898s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[1.914s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.930s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.945s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.962s] -- Symlinking: /home/user/ros2_ws/install/robot_description/share/robot_description/package.xml
+[1.985s] Invoked command in '/home/user/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_description

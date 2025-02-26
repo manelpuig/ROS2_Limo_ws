@@ -1,0 +1,73 @@
+[0.036s] Invoking command in '/home/user/ros2_ws/build/env_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tcsim_gazebo/env_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/env_models
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.526s] -- Detecting CXX compiler ABI info - done
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.551s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.872s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.980s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.185s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.408s] -- Added test 'lint_cmake' to check CMake code style
+[1.413s] -- Added test 'xmllint' to check XML markup files
+[1.416s] -- Configuring done
+[1.421s] -- Generating done
+[1.422s] -- Build files have been written to: /home/user/ros2_ws/build/env_models
+[1.441s] Invoked command in '/home/user/ros2_ws/build/env_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tcsim_gazebo/env_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/env_models
+[1.442s] Invoking command in '/home/user/ros2_ws/build/env_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/env_models -- -j8 -l8
+[1.511s] Invoked command in '/home/user/ros2_ws/build/env_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/env_models -- -j8 -l8
+[1.591s] Invoking command in '/home/user/ros2_ws/build/env_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/env_models
+[1.605s] -- Install configuration: ""
+[1.606s] -- Execute custom install script
+[1.607s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//worlds/generated_world.world
+[1.625s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/alien/meshes/AlienHominid_baseColor.png
+[1.640s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/alien/meshes/Blaster_baseColor.png
+[1.670s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/alien/meshes/alien.dae
+[1.683s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/alien/meshes/alien.stl
+[1.698s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/alien/meshes/gray_ish.png
+[1.712s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/alien/model.config
+[1.724s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/alien/model.sdf
+[1.738s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/astronaut/meshes/Image_0.png
+[1.749s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/astronaut/meshes/Image_4.png
+[1.767s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/astronaut/meshes/astronaut_pro.dae
+[1.784s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/astronaut/meshes/astronaut_pro.stl
+[1.797s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/astronaut/model.config
+[1.811s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/astronaut/model.sdf
+[1.828s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/background_forest/meshes/forest.png
+[1.841s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/background_forest/meshes/sphere.dae
+[1.858s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/background_forest/model.config
+[1.878s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/background_forest/model.sdf
+[1.892s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/meshes/agile_x_logo.jpg
+[1.913s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/meshes/black-smooth-textured-background_53876-101777.jpg
+[1.925s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/meshes/depositphotos_1604796-Red-foam-rubber-texture.webp
+[1.937s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/meshes/gold.png
+[1.947s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/meshes/limo_floor.png
+[1.960s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/meshes/limo_stage.dae
+[1.977s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/meshes/limo_stage.stl
+[1.991s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/meshes/tc_logo2.jpg
+[2.003s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/meshes/texture-water-drops-bottle-beer-55214728.jpg
+[2.018s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/model.config
+[2.033s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models//models/limo_stage/model.sdf
+[2.049s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/ament_index/resource_index/package_run_dependencies/env_models
+[2.064s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/ament_index/resource_index/parent_prefix_path/env_models
+[2.077s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/environment/ament_prefix_path.sh
+[2.092s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/environment/ament_prefix_path.dsv
+[2.104s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/environment/path.sh
+[2.116s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/environment/path.dsv
+[2.132s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/local_setup.bash
+[2.147s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/local_setup.sh
+[2.160s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/local_setup.zsh
+[2.179s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/local_setup.dsv
+[2.190s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/package.dsv
+[2.201s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/ament_index/resource_index/packages/env_models
+[2.211s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/cmake/env_modelsConfig.cmake
+[2.223s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/cmake/env_modelsConfig-version.cmake
+[2.233s] -- Symlinking: /home/user/ros2_ws/install/env_models/share/env_models/package.xml
+[2.254s] Invoked command in '/home/user/ros2_ws/build/env_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/env_models
