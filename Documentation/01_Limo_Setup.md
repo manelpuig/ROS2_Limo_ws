@@ -18,38 +18,23 @@ References:
 
 ## **1.1. Simulation LIMO robot**
 
-We have created a "rUBot_limo_ws" github repository to fork on your github account and clone to your ROS environment (i.e. TheConstruct environment)
-
-To create this repository we have followed the Agilex instructions:
-````shell
-mkdir -p ~/rUBot_limo_ws/src
-cd ~/rUBot_limo_ws/src
-# download source code
-git clone https://github.com/limo-agx/limo.git
-git clone https://github.com/limo-agx/limo_desktop.git
-git clone https://github.com/limo-agx/limo_simulator.git
-git clone https://github.com/limo-agx/limo_vision.git
-git clone https://github.com/limo-agx/limo_robot.git
-cd ~/rUBot_limo_ws
-catkin_make
-````
-This is already done and ready to work:
+We have created a "ROS2_Limo_ws" github repository to fork on your github account and clone to your ROS environment (i.e. TheConstruct environment)
 
 - clone the "rUBot_limo_ws" repository on Home ROS environment:
 ````shell
-git clone https://github.com/manelpuig/rUBot_limo_ws.git
+git clone https://github.com/manelpuig/ROS2_Limo_ws.git
 ````
-- install dependencies and build
+- Build
 ````shell
 cd ..
-catkin_make
-source devel/setup.bash
+colcon build
+source install/setup.bash
 ````
 - Add in .bashrc the lines:
 ````shell
 source /opt/ros/noetic/setup.bash
-source /home/user/rUBot_limo_ws/devel/setup.bash
-cd /home/user/rUBot_limo_ws
+source /home/user/ROS2_Limo_ws/install/setup.bash
+cd /home/user/ROS2_Limo_ws
 ````
 ## **1.2. Real LIMO robot**
 
@@ -79,3 +64,4 @@ The available repositories in real LIMO robot Jetson Nano computer onboard are o
 - The process is describerd for ROS2 Humble in: https://hub.docker.com/r/theconstructai/limo
 
 Careful!: add user to docker group: (https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
+
