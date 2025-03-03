@@ -147,4 +147,50 @@ From Github repository add collaborators with username
 
 You create a branch for each collaborator
 
-**10. Merge branches:**
+**10. Merge branches: Synchronizing Changes in a GitHub Repository**
+
+Let's say you have a GitHub repository with two collaborators, and you want to understand how to keep everyone's work in sync, especially with the `master` (or `main`) branch.
+
+**10.1. Collaborator's Changes to `master`**
+
+* **Collaborator Creates a Branch:**
+    * It's best practice for collaborators to work on their own branches.
+    * ```bash
+        git checkout -b feature-branch
+        ```
+* **Collaborator Makes Changes and Commits:**
+    * ```bash
+        git add .
+        git commit -m "Describe changes"
+        ```
+* **Collaborator Pushes the Branch:**
+    * ```bash
+        git push origin feature-branch
+        ```
+* **Create a Pull Request (PR):**
+    * The collaborator goes to the GitHub repository and creates a PR from `feature-branch` to `master`.
+* **Review and Merge PR:**
+    * You (or the other collaborator) review the changes.
+    * If everything is okay, you approve and merge the PR into `master`.
+    * It is good practice to delete the feature branch after the pull request has been merged.
+* **Update Local `master`:**
+    * Everyone should then update their local `master` branch:
+        * ```bash
+            git checkout master
+            git pull origin master
+            ```
+
+**10.2. Synchronizing `master` with the Other Collaborator**
+
+* **Other Collaborator Updates Local `master`:**
+    * ```bash
+        git checkout master
+        git pull origin master
+        ```
+* **Other Collaborator Updates Their Work Branches:**
+    * If the other collaborator has their own branches, they need to bring in the changes from `master`.
+    * ```bash
+        git checkout their-branch
+        git rebase master
+        ```
+        * Or, they can use `git merge master`. `rebase` is generally preferred for a cleaner history.
