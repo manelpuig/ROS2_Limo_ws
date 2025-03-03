@@ -129,21 +129,10 @@ Pushing a ROS (Robot Operating System) repository from Ubuntu to GitHub requires
 * **Authentication:**
     * Use a Personal Access Token (PAT) or SSH keys for authentication. GitHub no longer accepts password authentication.
 
-**Key Considerations:**
-
-* **`.gitignore` Customization:** Adapt the `.gitignore` file to your specific ROS project needs.
-* **Existing Files:** If you've already committed files you now want to ignore, remove them from Git's tracking:
-    ```bash
-    git rm --cached filename
-    ```
-    Then, commit the changes.
-* **Branch Names:** Ensure you use the correct branch name (e.g., `main`, `master`, or any other branch).
-* **Authentication:** Using SSH keys is generally recommended for long term use. PATs are also a great option.
-* **ROS Workspace Structure:** Make sure you are in the correct directory within your ROS workspace. Pushing the entire workspace is usually not recommended. Push only the source packages.
 
 **9. Collaborators and branches:**
 
-From Github repository add collaborators with username
+From Github repository add collaborators with username. The shared project will appear on each collaborator's GitHub account.
 
 You create a branch for each collaborator
 
