@@ -168,11 +168,11 @@ Let's say you have a GitHub repository with two collaborators, and you want to u
         git push origin feature-branch
         ```
 * **Create a Pull Request (PR):**
-    * The collaborator goes to the GitHub repository and creates a PR from `feature-branch` to `master`.
+    * The collaborator goes to the GitHub repository and creates a new PR from `feature-branch` to `master`.
 * **Review and Merge PR:**
     * You (or the other collaborator) review the changes.
     * If everything is okay, you approve and merge the PR into `master`.
-    * It is good practice to delete the feature branch after the pull request has been merged.
+
 * **Update Local `master`:**
     * Everyone should then update their local `master` branch:
         * ```bash
